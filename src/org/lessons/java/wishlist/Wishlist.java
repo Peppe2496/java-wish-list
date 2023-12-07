@@ -36,7 +36,7 @@ public class Wishlist {
         System.out.println(wishlist);
 
         for (String element: wishlist){
-            System.out.println(element.toLowerCase());
+            System.out.println(element.toString());
         }
 
         scanner.close();
